@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+    <span></span>
+    </label>
+
+    <header>
+        <div class="header">
+            <h2>Company</h2>
+            <hr>
+            <nav>
+            <ul class="menu__box">
+                <li><a class="menu__item dash active" href="index.html">Dashboard</a></li>
+                <li><a class="menu__item user" href="userprofile.html">User profile</a></li>
+                <li><a class="menu__item map" href="#">Map</a></li>
+                <li><a class="menu__item tick" href="#">Notifications</a></li>
+                <li><a class="menu__item web" href="#">Support</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h1 class="main_title">Dashboard</h1>
+    
+            <section class="column section">
+                <div class="test">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="info-box">
+                                <div class="image-box coins"> <img src="icons/data_white.svg" alt="coins"></div>
+                                <div class="info">
+                                    <span>Used space</span>
+                                    <p>49/50GB</p>
+                                </div>
+                            </div>
+                            <hr class="line">
+                            <div class="extra-box">
+                                <img src="icons/alert.png" alt="extra">
+                                <span> Get more space...</span>
+                            </div>
+                        </div>
+                    </div> 
+    
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="info-box">
+                                <div class="image-box shop"> <img src="icons/shop_white.svg" alt="shop"></div>
+                                <div class="info">
+                                    <span>Revenue</span>
+                                    <p>$ 34,245</p>
+                                </div>
+                            </div>
+                            <hr class="line">
+                            <div class="extra-box">
+                                <img src="icons/date.png" alt="extra">
+                                <span> Last 24 Hours </span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="test">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="info-box">
+                                <div class="image-box tag"> <img src="icons/tag_white.svg" alt="tag"></div>
+                                <div class="info">
+                                    <span>Fixed issues</span>
+                                    <p>75</p>
+                                </div>
+                            </div>
+                            <hr class="line">
+                            <div class="extra-box">
+                                <img src="icons/down.png" alt="extra">
+                                <span> Tracked from Github </span>
+                            </div>
+                        </div>
+                    </div> 
+    
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="info-box">
+                                <div class="image-box paperplane"> <img src="icons/paperplane_white.svg" alt="paperplane"></div>
+                                <div class="info">
+                                    <span>Followers</span>
+                                    <p>+ 245</p>
+                                </div>
+                            </div>
+                            <hr class="line">
+                            <div class="extra-box">
+                                <img src="icons/time.png" alt="extra">
+                                <span> Just updated </span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+        
+            <section class="second section">
+                <div class="big-card-container"> 
+                    <div class="chart green">
+                        <img src="icons/graphics.svg" alt="graphics">
+                    </div>
+                    <div class="low-box">
+                        <div class="big-info">
+                            <span>Daily Sales</span>
+                            <p>55% increase in today sales</p>
+                        </div>
+                        <hr class="line">
+                        <div class="extra-box">
+                            <img src="icons/time.png" alt="clock">
+                            <span>updated 4 minutes ago</span>
+                        </div>
+                    </div>            
+                </div>
+        
+                <div class="big-card-container">     
+                    <div class="chart orange">
+                        <img src="icons/graphics.svg" alt="graphics">
+                    </div>
+                    <div class="low-box">
+                        <div class="big-info">
+                            <span>Email Subscriptions</span>
+                            <p>Last Campaign Performance</p>
+                        </div>
+                        <hr class="line">
+                        <div class="extra-box">
+                            <img src="icons/time.png" alt="clock">
+                            <span>campaign sent 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="big-card-container">
+                    <div class="chart indigo">
+                        <img src="icons/graphics.svg" alt="graphics">
+                    </div>
+                    <div class="low-box">
+                        <div class="big-info">
+                            <span>Completed Tasks</span>
+                            <p>Last Campaign Performance</p>
+                        </div>
+                        <hr class="line">
+                        <div class="extra-box">
+                            <img src="icons/time.png" alt="clock">
+                            <span>campaign event 2 days ago</span>
+                        </div>
+                    </div>
+                </div>      
+            </section>
+        
+            <section class="column section">
+                <div class="huge-card-container">
+                    <div class="huge-card">
+                        <div class="tasks orange">
+                            <nav>
+                                    <span>Tasks:</span>
+                                    <ol>
+                                        <li><a href="#"> <img src="icons/bug.svg" alt="bug"> Bugs</a> </li>
+                                        <li><a href="#"> <img src="icons/net_white.svg" alt="web"> Website</a> </li>
+                                        <li><a href="#"> <img src="icons/cloud.svg" alt="web"> Server</a> </li>
+                                    </ol>
+                            </nav>
+                        </div>
+                        <div class="list">
+                            <div class="list-items to-do">
+                                <label for="one"> <input type="checkbox" id="one"> <p>Sign contract for "What are conference organizers afraid of?"</p> </label>
+                                <div class="icons-box">
+                                    <div><img src="icons/edit.png" alt="edit"></div>
+                                    <div><img src="icons/remove.png" alt="remove"></div>
+                                </div>
+                            </div>
+        
+                            <div class="list-items to-do">
+                                <label for="two"> <input type="checkbox" id="two"> <p>Lines From Great Rissian Literature? Or E-mails From My Boss?</p> </label>
+                                <div class="icons-box">
+                                    <div><img src="icons/edit.png" alt="edit"></div>
+                                    <div><img src="icons/remove.png" alt="remove"></div>
+                                </div>
+                            </div>
+        
+                            <div class="list-items to-do">
+                                <label for="three"> <input type="checkbox" id="three"> <p>Sign contract for "What are conference organizers afraid of?"</p> </label>
+                                <div class="icons-box">
+                                    <div><img src="icons/edit.png" alt="edit"></div>
+                                    <div><img src="icons/remove.png" alt="remove"></div>
+                                </div>
+                            </div>
+        
+                            <div class="list-items to-do no-border">
+                                <label for="four"> <input type="checkbox" id="four"> <p>Sign contract for "What are conference organizers afraid of?"</p> </label>
+                                <div class="icons-box">
+                                    <div><img src="icons/edit.png" alt="edit"></div>
+                                    <div><img src="icons/remove.png" alt="remove"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="huge-card-container">
+                    <div class="huge-card">
+                        <div class="indigo employ">
+                            <span>Employees Stats</span>
+                            <p>New employees on 19th September, 2019</p>
+                        </div>
+                        <div class="list">
+                            <div class="list-items salary teal">
+                                <div> ID </div>
+                                <div>Name</div>
+                                <div>Salary</div>
+                                <div>Country</div>
+                            </div>
+        
+                            <div class="list-items salary">
+                                <div>1</div>
+                                <div>Dakota Rice</div>
+                                <div>$36.738</div>
+                                <div>Niger</div>
+                            </div>
+        
+                            <div class="list-items salary">
+                                <div>1</div>
+                                <div>Dakota Rice</div>
+                                <div>$36.738</div>
+                                <div>Niger</div>
+                            </div>
+        
+                            <div class="list-items salary">
+                                <div>1</div>
+                                <div>Dakota Rice</div>
+                                <div>$36.738</div>
+                                <div>Niger</div>
+                            </div>
+        
+                            <div class="list-items salary no-border">
+                                <div>1</div>
+                                <div>Dakota Rice</div>
+                                <div>$36.738</div>
+                                <div>Niger</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <a href="#">ABOUT</a>
+                <a href="#">BLOG</a>
+                <a href="#">LICENSES</a>
+            </div>
+            <div>
+                <span>2019 - made with love</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User profile</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <header>
+        <div class="header">
+          <h2>Company</h2>
+          <hr>
+              <nav>
+                <ul class="menu__box">
+                  <li><a class="menu__item dash" href="index.html">Dashboard</a></li>
+                  <li><a class="menu__item user active" href="#">User profile</a></li>
+                  <li><a class="menu__item map" href="#">Map</a></li>
+                  <li><a class="menu__item tick" href="#">Notifications</a></li>
+                  <li><a class="menu__item web" href="#">Support</a></li>
+                </ul>
+              </nav>
+      
+          </div>
+        </header>
+
+    <main>
+        <h1 class="main_title">User profile</h1>
+        <section class="main-container">
+            <div class="form-container">
+                    <div class="pink-box">
+                        <span>Edit Profile</span>
+                        <span>Complete your profile</span>
+                    </div>
+                    <form action="">
+                        <div class="input-container">
+                            <div class="input-box">
+                                <label for="company">Company
+                                    <input type="text" id="company">
+                                </label>
+                                <label for="username">
+                                    Username
+                                    <input type="text" id="username">
+                                </label>
+                                <label for="email">
+                                    Email address
+                                    <input type="email" id="email">
+                                </label>
+                            </div>
+                            <div class="input-box name">
+                                <label for="FirstName">First name
+                                    <input type="text" id="FirstName">
+                                </label>
+                                <label for="LastName">
+                                    Last name
+                                    <input type="text" id="LastName">
+                                </label>
+                            </div>
+                            <label for="address">
+                                Address
+                                <input type="text" id="address">
+                            </label>
+                            <div class="input-box">
+                                <label for="city">
+                                    City
+                                    <input type="text" id="city">
+                                </label>
+                                <label for="country">Country
+                                    <input type="text" id="country">
+                                </label>
+                                <label for="post">Postcode
+                                    <input type="text" id="post">
+                                </label>
+                            </div>
+                            <label for="text" id="textarea">
+                                About me
+                                <textarea rows="2" id="text" ></textarea>
+                            </label>
+                        </div>
+                        <input type="submit" value="update profile">
+                    </form>
+            </div>
+
+            <div class="user-container">
+                <div class="user-card">
+                    <div class="image-card"> <img src="icons/vash.jpeg" alt="sasha_vash"></div>
+                    <span>CEO / CO-FOUNDER</span>
+                    <h3>Sashechka Vash</h3>
+                    <p> Здесь будет парочка моих любимых цитат этого товарища: <br>
+                        1. Будь тверд, как просроченный пряник. <br>
+                        2. Я открыт как окно без москитной сетки.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <a href="#">ABOUT</a>
+                <a href="#">BLOG</a>
+                <a href="#">LICENSES</a>
+            </div>
+            <div>
+                <span>2019 - made with love</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
